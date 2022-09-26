@@ -1,0 +1,20 @@
+make file app.js
+npm init
+dependecies - express, mysql2, sequelize, cors
+package.json -> type = module
+
+goto app.js -> import dependecies, set dependecies, set web server, set db server ,set middleware
+and test it
+
+make mysql_db , name = mern_db -> table = products
+    make connection db, make folder config -> new file database.js
+
+Make folder config -> new file database.js (for db connection)
+
+make folder model -> new file productModel.js (for make schema model of table expecially table of products) export default Products (Products needed when access db especially table of products) 
+
+make folder routes -> new file route.js (place for any routes)
+
+make folder controllers -> new file products.js (any logic/method/function for products)
+
+
